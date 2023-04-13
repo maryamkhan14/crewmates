@@ -32,6 +32,14 @@ const Sidebar = () => {
             Create your crew!
           </span>
         </Link>
+        <Link
+          className="group text-white transition-all duration-300 ease-in-out"
+          to="/crew"
+        >
+          <span className="bg-left-bottom bg-gradient-to-r from-pink-500 via-blue-500 to-yellow-300 bg-[length:0%_5px] bg-no-repeat group-hover:bg-[length:100%_5px] transition-all duration-500 ease-out">
+            See the crew!
+          </span>
+        </Link>
       </div>
     </div>
   );
