@@ -26,7 +26,7 @@ const Sidebar = () => {
         </Link>
         <Link
           className="group text-white transition-all duration-300 ease-in-out"
-          to="/"
+          to="/create-crew"
         >
           <span className="bg-left-bottom bg-gradient-to-r from-pink-500 via-blue-500 to-yellow-300 bg-[length:0%_5px] bg-no-repeat group-hover:bg-[length:100%_5px] transition-all duration-500 ease-out">
             Create your crew!

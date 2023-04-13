@@ -1,0 +1,45 @@
+.pacman {
+  height: 150px;
+  width: 150px;
+  clip-path: polygon(
+    100% 0,
+    100% 25%,
+    50% 50%,
+    50% 50%,
+    100% 75%,
+    100% 100%,
+    0 100%,
+    0 0
+  );
+}
+.pacman {
+  animation: mouth 0.35s infinite cubic-bezier(0.85, 0, 0.15, 1);
+  animation-direction: alternate;
+}
+
+@keyframes mouth {
+  0% {
+    clip-path: polygon(
+      100% 0,
+      100% 25%,
+      50% 50%,
+      50% 50%,
+      100% 75%,
+      100% 100%,
+      0 100%,
+      0 0
+    );
+  }
+  100% {
+    clip-path: polygon(
+      100% 0,
+      100% 50%,
+      50% 50%,
+      50% 50%,
+      100% 50%,
+      100% 100%,
+      0 100%,
+      0 0
+    );
+  }
+}
