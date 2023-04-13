@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
-    <div className="md:min-w-1/5 md:max-w-1/4 bg-gray-dark flex-col justify-items-center items-center text-center p-2  bg-slate-900">
+    <div className="md:min-w-1/5 md:max-w-3/8 bg-gray-dark flex-col justify-items-center items-center text-center p-3 bg-slate-900">
       <h1 className="text-4xl xl:text-5xl pb-5">
         <span className="text-blue-300">C</span>
         <span className="text-pink-400">R</span>

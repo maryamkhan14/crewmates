@@ -14,6 +14,7 @@ const CreateCrew = () => {
         color: color,
       })
       .select();
+    window.location = "/crew";
   };
   const submitForm = (e) => {
     e.preventDefault();
