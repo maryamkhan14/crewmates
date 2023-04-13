@@ -1,10 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    @apply text-white;
+    @apply font-plainText;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-headings;
+  }
+}
 body {
   margin: 0;
   display: flex;
   padding: 0;
+  width: 100%;
+  height: 100vh;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
