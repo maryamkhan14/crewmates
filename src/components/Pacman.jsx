@@ -3,6 +3,7 @@ import "./styling/Pacman.css";
 const Pacman = ({ color }) => {
   return (
     <div className="h-210 w-210">
+      {/* Inspired by: https://codepen.io/MarioAraque/pen/Vvmjqr */}
       <div
         className={`pacman rounded-full h-150 w-150`}
         style={{ backgroundColor: color }}
